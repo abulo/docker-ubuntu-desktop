@@ -9,7 +9,7 @@ on:
 
 env:
   # 设置 docker 镜像名
-  IMAGENAME: docker-golang
+  IMAGENAME: docker-ubuntu-desktop
 
 jobs:
   push:
