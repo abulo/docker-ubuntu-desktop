@@ -23,6 +23,10 @@ ENV PASSWORD=ubuntu
 ENV UID=1000
 ENV GID=1000
 ENV DBUS_SYSTEM_BUS_ADDRESS=unix:path=/host/run/dbus/system_bus_socket
+ENV DEBIAN_FRONTEND=noninteractive
+ENV NVIDIA_VISIBLE_DEVICES=all
+ENV NVIDIA_DRIVER_CAPABILITIES=all
+ENV VGL_DISPLAY=egl
 
 # ldap config
 ARG LDAP_DOMAIN=localhost
